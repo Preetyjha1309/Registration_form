@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    
+</head>
+
+<body>
+    
+    <form id="singin" action="/save" method="POST">
+        <h1>Signup</h1>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <label for="confirmPassword">Confirm Password:</label>
+        <input type="password" id="confirmPassword" name="confirmPassword" required><br><br>
+
+        <input type="submit" value="save">
+    </form>
+</body>
+
+<style>
+    #singin{
+      margin-top: 10px;
+      padding: 10px;
+      text-align: center;
+      background-color: rgb(199, 17, 154);
+      color: rgb(152, 212, 21);
+      box-sizing: 50vh;
+    }
+  </style>
+
+</html>
